@@ -16,7 +16,7 @@ public class WhereAmIActivity extends AppCompatActivity {
     private LocationListener mLocationListener = new LocationListener() {
         @Override
         public void onLocationChanged(Location location) {
-            updateWithNewLocation(location); f
+            updateWithNewLocation(location);
         }
 
         @Override
